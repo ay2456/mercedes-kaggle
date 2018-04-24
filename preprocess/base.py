@@ -2,7 +2,7 @@ import logging
 from abc import abstractmethod, ABCMeta
 
 
-class Preprocess(object):
+class PreprocessBase(object):
     __metaclass__ = ABCMeta
 
     def __init__(self):
